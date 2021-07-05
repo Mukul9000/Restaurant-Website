@@ -1,0 +1,50 @@
+/* navbar*/
+#navbar{
+    flex-direction: column-reverse;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+
+}
+
+#navbar ul li{
+    margin: 3px 3px;
+}
+/*logo*/
+
+/* Content */
+
+#content{
+    height: 500px;
+    padding: 50px 10px;
+
+}
+
+#content h1{
+    font-size: 2rem;
+}
+
+#content p{
+    font-size: 1rem;
+}
+
+#content::before{
+    height: 600px;
+    width: 100vw;
+}
+/* Services */   
+
+#services{
+    flex-direction: column;
+}
+/* Our Clients */
+
+#clients{
+    flex-wrap: wrap;
+}
+
+.myclient img{
+    height: 78px;
+}
+/* Contact us */
